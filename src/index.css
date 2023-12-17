@@ -35,8 +35,19 @@
 /* Canvas Container */
 .canvas-container {
   margin: 15px;
-  background-color: #f0f0f0;
-  border: 1px solid #ccc;
+  background-color: #cececeea;
+  border: 1px solid #585858;
+  padding: 0; /* Remove padding */
+  width: (50%); /* Adjust as needed */
+}
+
+canvas{
+  /* Center Canvas*/
+  margin: 0 auto;
+  margin-bottom: 20px; /* Spacing between canvases */
+  margin-top: 20px; /* Spacing between canvases */
+  align-self: center;
+  display: flex;
 }
 
 /* Feature Container */
